@@ -1,0 +1,381 @@
+@media screen and (min-width: 768px) and (max-width: 1536px) {
+  
+  nav{
+    margin-left: auto;
+    margin-right: 150px;
+  }
+
+   /* ---------header list--------- */
+  #header .navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+  }
+
+
+  /* ---------logo--------- */
+
+  .logo-img {
+    width: 180px;
+    height: auto;
+  }
+
+
+
+
+
+
+
+
+
+  /* ---------------------------  INDEX.HTML ---------------------------*/
+  .bg-video{
+    position: fixed;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    height: 99.8%;
+    object-position: center 80%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* --------------------------- ABOUTME.HTML ---------------------------*/
+ /* --------- cards --------- */
+  #card1{
+    padding: 50px 190px;
+  }
+
+/*--- card1 ---*/
+
+  .hed1{
+    font-weight: 2500;
+  }
+
+  .p1{
+    width: 300px;
+    font-size: 11px;
+  }
+
+/*--- card2 ---*/
+  #card2{
+    top: -415px;
+    left: 1110px;
+    padding: 50px 190px;
+  }
+
+  .hed2{
+    font-weight: 2500;
+  }
+
+  .p2{
+    width: 300px;
+    font-size: 11px;
+  }
+
+/*--- card3 ---*/
+#card3{
+  top: -474px;
+  left: 600px;
+  height: 100px;
+  padding: 3px 160px;
+}
+
+.hed3{
+  color: #ff0000b4;
+  font-weight: 2500;
+  margin: 0 0 20px 0;
+  align-items: center;
+}
+
+#card3, .sec{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sec{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  width: 100%;
+}
+
+.radar-pattern {
+    top: 8%;
+}
+
+.radar-center {
+    top: 37%;
+    left: 50%;
+}
+
+.radar-pattern::before {
+  top: 37%;
+  left: 50%;
+}
+
+.radar-pattern::after {
+  top: 51%;
+  left: calc(50% + 26px);
+  width: 26em;
+  height: 26em;
+  margin-left: -14.5em;
+
+}
+
+/* ===== Instagram ===== */
+
+.icon {
+  width: 28px;
+}
+
+.layer {
+  width: 28px;
+  height: 28px;
+}
+
+.instagramSVG {
+  font-size: 14px;
+}
+
+.icon:hover .layer span:nth-child(2) {
+  transform: translate(2px, -2px);
+}
+
+.icon:hover .layer span:nth-child(3) {
+  transform: translate(4px, -4px);
+}
+
+.icon:hover .layer span:nth-child(4) {
+  transform: translate(6px, -6px);
+}
+
+.icon:hover .layer span:nth-child(5) {
+  transform: translate(8px, -8px);
+}
+
+.img {
+  width: 28px;
+  height: 28px;
+  font-size: 14px;
+}
+
+.name {
+  font-size: 9px;
+}
+
+.user {
+  gap: 4px;
+  font-size: 14px;
+}
+
+.about {
+  font-size: 15px;
+  color: #eb5620e5;
+}
+
+.tooltip {
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.profile {
+  padding: 4px;
+}
+
+/* ===== Discord ===== */
+
+.layer2 {
+  width: 28px;
+  height: 28px;
+}
+
+.layer2 span.fab2 {
+  font-size: 16px;
+  line-height: 34px;
+}
+
+.icon2:hover .layer2 span:nth-child(2) {
+  transform: translate(2px, -2px);
+}
+
+.icon2:hover .layer2 span:nth-child(3) {
+  transform: translate(4px, -4px);
+}
+
+.icon2:hover .layer2 span:nth-child(4) {
+  transform: translate(6px, -6px);
+}
+
+.icon2:hover .layer2 span:nth-child(5) {
+  transform: translate(8px, -8px);
+}
+
+.img2 {
+  width: 28px;
+  height: 28px;
+  font-size: 14px;
+}
+
+.name2 {
+  font-size: 9px;
+}
+
+.user2 {
+  gap: 4px;
+  font-size: 14px;
+}
+.about2 {
+  font-size: 13px;
+  color: #3c4adad5;
+}
+
+.tooltip2 {
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.profile2 {
+  padding: 4px;
+}
+
+/* ===== LinkedIn ===== */
+
+.layer3 {
+  width: 28px;
+  height: 28px;
+}
+
+.layer3 span.fab3 {
+  font-size: 16px;
+  line-height: 34px;
+}
+
+.icon3:hover .layer3 span:nth-child(2) {
+  transform: translate(2px, -2px);
+}
+
+.icon3:hover .layer3 span:nth-child(3) {
+  transform: translate(4px, -4px);
+}
+
+.icon3:hover .layer3 span:nth-child(4) {
+  transform: translate(6px, -6px);
+}
+
+.icon3:hover .layer3 span:nth-child(5) {
+  transform: translate(8px, -8px);
+}
+
+.img3 {
+  width: 28px;
+  height: 28px;
+  font-size: 14px;
+}
+
+.name3 {
+  font-size: 9px;
+}
+
+.user3 {
+  gap: 4px;
+  font-size: 14px;
+}
+
+.about3 {
+  font-size: 13px;
+  color: #1f97e1d8;
+}
+
+.tooltip3 {
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.profile3 {
+  padding: 4px;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------  GAME.HTML ---------------------------*/
+.bcg {
+  left: 393px;
+}
+
+.backg {
+  width: 757px;
+  height: 592px;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------  MATERIAL.HTML ---------------------------*/
+.backg1 {
+  width: 757px;
+  height: 592px;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------  MODEL3D.HTML ---------------------------*/
+.backg3{
+  width: 757px;
+  height: 592px;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------  BESTAIRY.HTML ---------------------------*/
+.bc-g1 {
+  
+}
+
+.backg2 {
+  width: 757px;
+  height: 592px;
+}
+
+}
